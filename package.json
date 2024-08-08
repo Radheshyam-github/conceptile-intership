@@ -1,0 +1,24 @@
+{
+  "name": "intership",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"cd frontend && npm  start\" \" cd backend && nodemon index\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Radheshyam-github/Intership.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Radheshyam-github/Intership/issues"
+  },
+  "homepage": "https://github.com/Radheshyam-github/Intership#readme",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
